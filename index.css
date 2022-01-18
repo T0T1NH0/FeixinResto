@@ -1,0 +1,303 @@
+body {
+    background-color: darkblue;
+}
+
+header {
+    background-color: red;
+    width: 1170px;
+    height: 120px;
+    margin-left: 80px;
+    margin-top: 5px;
+    border: 3px solid white;
+    border-radius: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+figure {
+    height: 120px;
+    width: 100px;
+}
+
+#h2header {
+    color: yellow;
+    text-decoration: underline;
+}
+
+div>img {
+    width: 40px;
+    height: 40px;
+}
+
+#sombrero1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#sombrero2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#derecha1 {
+    align-items: flex-end;
+    padding-top: 80px;
+}
+
+#maincontainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#description-container {
+    background-color: yellow;
+    width: 645px;
+    height: 427px;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+#meet {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-left: 170px;
+    padding-top: 20px;
+}
+
+#opcarne {
+    margin-left: 40px;
+}
+
+#opverdura {
+    margin-left: 40px;
+}
+
+#fotocarne {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-position: 50%;
+    background-size: 300%;
+    background-image: url(./foto1.jpg);
+}
+
+#vegetables {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-left: 80px;
+    padding-top: 15px;
+}
+
+#vegetablesphoto {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-position: 50%;
+    background-size: 500%;
+    background-image: url(./foto2.jpg);
+}
+
+p {
+    font-size: 30px;
+}
+
+span {
+    color: blue;
+}
+
+#boxcontainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 35px;
+    padding-left: 35px;
+}
+
+#box {
+    background-color: black;
+    width: 70vh;
+    height: 40px;
+}
+
+#derechos {
+    color: white;
+    font-size: 15px;
+    text-align: right;
+    padding: 0 13px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#form-container {
+    background-color: rgb(179, 179, 220)
+    ;
+    width: 645px;
+    height: 427px;
+    border-top-right-radius: 80px;
+
+    border-bottom-right-radius: 80px;
+}
+
+fieldset {
+    width: 80vh;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 9vh;
+    margin-top: 4vh;
+}
+
+#amarillocepillo {
+    background-color: yellow;
+    height: 6vh;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    padding: 0 18px;
+    justify-content: space-between;
+}
+
+#hiho {
+    height: 90%;
+    width: 25%;
+    display: flex;
+}
+
+#hacetupedido p {
+    font-size: 20px;
+    color: red;
+    text-align: center
+}
+
+.querescomer {
+    line-height: 1px;
+    font-weight: bold;
+}
+
+.elegi {
+    line-height: 2px;
+    height: 1px;
+    font-weight: bold;
+}
+
+#checkboxcontainer {
+    width: 300px;
+    height: auto;
+    background-color: brown;
+    color: white;
+}
+
+#itemcontainer {
+    display: flex;
+}
+
+.carnerojo {
+    background-color: red;
+}
+
+.verdurasverde {
+    background-color: green;
+}
+
+.ensaladaverde {
+    background-color: green;
+}
+
+.pastasrojo {
+    background-color: red;
+}
+
+#itemcontainer2 {
+    display: flex;
+
+}
+
+#itemcontainer :nth-last-child() {
+    display: none;
+}
+
+#itemcontainer>div {
+    display: flex;
+    width: 50%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+#itemcontainer2>div {
+    display: flex;
+    width: 50%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+#itemcontainer>div>p {
+    font-size: 1.2rem;
+}
+
+#itemcontainer2>div>p {
+    font-size: 1.2rem;
+}
+
+#nombre {
+    font-size: 20px;
+    padding-right: 40px;
+}
+
+#enviarpedido {
+    height: 11%;
+}
+
+#pedido {
+    font-size: 20px;
+    margin: 0;
+}
+
+#boton {
+    width: 30vh;
+    height: 35px;
+    font-weight: bold;
+    background-color: rgb(212, 107, 212);
+}
+
+#abajo {
+    border-top: 5px solid red;
+    margin-top: 4px;
+}
+
+footer {
+    display: flex;
+    background-color: yellow;
+    width: 100%;
+    height: 48px;
+    justify-content: flex-end;
+    align-items: center;
+
+
+}
+
+footer p {
+    margin-right: 3vw;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#MindHub {
+    font-family: serif;
+    font-size: 15px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: right;
+}
